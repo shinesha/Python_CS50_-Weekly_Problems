@@ -1,27 +1,27 @@
-# from fractions import Fraction
+from fractions import Fraction
 
-# def fuel():  
-#         try:
-#             inp = input("please input the fraction ")
+def fuel():  
+        try:
+            inp = input("please input the fraction ")
             
-#             for char in inp:
-#                     if char.isdigit() == False:
-#                         index = inp.index(char)
-#             a = Fraction(int(inp[0:index]), int(inp[index+1:]))
+            for char in inp:
+                    if char.isdigit() == False:
+                        index = inp.index(char)
+            a = Fraction(int(inp[0:index]), int(inp[index+1:]))
 
-#             if float(a) <=0.01:
-#                 print("E")
+            if float(a) <=0.01:
+                print("E")
            
-#             elif float(a)>=.99:
-#                 print("F")
+            elif float(a)>=.99:
+                print("F")
                 
-#             else:
-#                 print(float(a))
+            else:
+                print(float(a))
          
-#         except:
-#             print("please recheck your input")
+        except:
+            print("please recheck your input")
 
-# fuel()
+fuel()
 
 
 # def taqueria():
